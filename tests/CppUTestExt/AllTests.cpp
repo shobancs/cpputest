@@ -25,10 +25,10 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "../../CppUTest/CommandLineTestRunner.h"
-#include "../../CppUTest/TestRegistry.h"
-#include "../../CppUTestExt/MemoryReporterPlugin.h"
-#include "../../CppUTestExt/MockSupportPlugin.h"
+#include <CppUTest/CommandLineTestRunner.h>
+#include <CppUTest/TestRegistry.h>
+#include <CppUTestExt/MemoryReporterPlugin.h>
+#include <CppUTestExt/MockSupportPlugin.h>
 
 #ifdef CPPUTEST_INCLUDE_GTEST_TESTS
 #include "CppUTestExt/GTestConvertor.h"
